@@ -10,6 +10,7 @@ Cada pasta em `skills/` é uma skill pronta pra usar com o Claude Code. Você in
 
 Além das skills, este repo também tem:
 - `obsidian-template/` — vault Obsidian pronto pra ser a memória viva da sua operação (índices, templates de cliente, padrões de organização).
+- `guides/` — guias técnicos prontos pra implementar (ex: tracking Meta Pixel + CAPI).
 
 ## Como instalar uma skill
 
@@ -37,11 +38,17 @@ Os arquivos `CLAUDE.md` em cada subpasta são lidos automaticamente pelo Claude 
 | `subir-campanha` | Sobe campanha completa no Meta Ads via 1 frase | ✓ |
 | `espionar-concorrente` | Baixa ativos da Facebook Ads Library de concorrentes | ✓ |
 | `espionar-concorrente-pro` | Versão Pro: transcreve vídeos, descreve imagens, gera HTML report com IA | ✓ |
-| `relator` | Gera relatório narrativo no WhatsApp do cliente | 🔒 |
-| `vigia-24h` | Monitora contas 24/7 e alerta no WhatsApp | 🔒 |
-| `diagnostico-conta` | Auditoria automatizada da conta | 🔒 |
+| `relator` | Gera relatório narrativo no WhatsApp do cliente | ✓ |
+| `vigia-24h` | Monitora contas 24/7 e alerta no WhatsApp | ✓ |
+| `diagnostico-conta` | Auditoria automatizada da conta | ✓ |
 
-🔒 = ainda não liberada · ✓ = disponível no repo
+✓ = disponível no repo
+
+## Guias
+
+| Guia | Conteúdo |
+|---|---|
+| [`guides/META-CAPI-TRACKING.md`](guides/META-CAPI-TRACKING.md) | Implementação de tracking Meta Ads com Pixel (web) + CAPI (server) na Vercel |
 
 ## Mentoria Bravo
 
